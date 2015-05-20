@@ -13,7 +13,7 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->string('category');
             $table->string('name');
-			$table->integer('stock')->unsigned();
+            $table->integer('stock')->unsigned();
         });
     }
 
