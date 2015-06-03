@@ -11,8 +11,8 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function ($table) {
             $table->increments('id');
-            $table->string('category');
-            $table->string('name');
+            $table->string('title');
+            $table->double('price', 5, 2);
             $table->integer('stock')->unsigned();
         });
     }
