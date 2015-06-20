@@ -15,11 +15,11 @@ $app->get('/', function() use ($app) {
     return $app->welcome();
 });
 
-$app->get('productS', 'App\Http\Controllers\ProductController@index');
-$app->get('productS/create', 'App\Http\Controllers\ProductController@create');
-$app->post('productS', 'App\Http\Controllers\ProductController@store');
-$app->get('productS/{id}', 'App\Http\Controllers\ProductController@show');
-$app->get('productS/{id}/edit', 'App\Http\Controllers\ProductController@edit');
-$app->put('productS/{id}', 'App\Http\Controllers\ProductController@update');
-$app->patch('productS/{id}', 'App\Http\Controllers\ProductController@update');
-$app->delete('productS/{id}', 'App\Http\Controllers\ProductController@destroy');
+$app->get('products', 'App\Http\Controllers\ProductController@index');
+$app->get('products/create', 'App\Http\Controllers\ProductController@create');
+$app->post('products', 'App\Http\Controllers\ProductController@store');
+$app->get('products/{id}', 'App\Http\Controllers\ProductController@show');
+$app->get('products/{id}/edit', 'App\Http\Controllers\ProductController@edit');
+$app->put('products/{id}', 'App\Http\Controllers\ProductController@update');
+$app->patch('products/{id}', 'App\Http\Controllers\ProductController@update');
+$app->delete('products/{id}', 'App\Http\Controllers\ProductController@destroy');
