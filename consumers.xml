@@ -1,0 +1,14 @@
+<consumers>
+    <consumer>
+        <name>Fábio Santos</name>
+        <email>f@example.com</email>
+        <nif>123456789</nif>
+        <address>Leiria, Portugal</address>		
+    </consumer>
+    <consumer>
+        <name>Rúben Nunes</name>
+        <email>r@example.com</email>
+        <nif>123456789</nif>
+        <address>Leiria, Portugal</address>		
+    </consumer>
+</consumers>
