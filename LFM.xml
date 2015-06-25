@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="admin">
+      <firstName>Administrator</firstName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">admin</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="consumer">
+      <firstName>Consumer</firstName>
+      <lastName></lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">consumer</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="sales">
+      <firstName>Sales Manager</firstName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">sales</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="stock">
+      <firstName>Stock Manager</firstName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">stock</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lawyer">
+      <firstName>Lawyer</firstName>
+      <title></title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">lawyer</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Administration">
+      <displayName>Administration</displayName>
+    </role>
+    <role name="Consumer">
+      <displayName>Consumer</displayName>
+    </role>
+    <role name="Manager">
+      <displayName>Manager</displayName>
+    </role>
+    <role name="Lawyer">
+      <displayName>Lawyer</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Consumers">
+      <displayName>Consumers</displayName>
+    </group>
+    <group name="Administration">
+      <displayName>Administration</displayName>
+    </group>
+    <group name="Sales Department">
+      <displayName>Sales Department</displayName>
+    </group>
+    <group name="Stock Department">
+      <displayName>Stock Department</displayName>
+    </group>
+    <group name="Legal Department">
+      <displayName>Legal Department</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>admin</userName>
+      <roleName>Administration</roleName>
+      <groupName>Administration</groupName>
+    </membership>
+    <membership>
+      <userName>consumer</userName>
+      <roleName>Consumer</roleName>
+      <groupName>Consumers</groupName>
+    </membership>
+    <membership>
+      <userName>sales</userName>
+      <roleName>Administration</roleName>
+      <groupName>Sales Department</groupName>
+    </membership>
+    <membership>
+      <userName>stock</userName>
+      <roleName>Administration</roleName>
+      <groupName>Stock Department</groupName>
+    </membership>
+    <membership>
+      <userName>lawyer</userName>
+      <roleName>Administration</roleName>
+      <groupName>Legal Department</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
