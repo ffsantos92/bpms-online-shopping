@@ -1,4 +1,5 @@
 # Bonita BPM - Shopping Process
+Design and implementation of three business processes: order products, process order and resolve a dispute.
 
 
 ## License
