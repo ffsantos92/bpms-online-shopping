@@ -7,7 +7,7 @@ class ProductTableSeeder extends Seeder
     public function run()
     {
         DB::table('products')->truncate();
-        
+
         $data = [
             ['title' => 'Amazon Fire Phone, 32GB', 'price' => 179.00, 'stock' => 100],
             ['title' => 'Samsung GT-I8200 Galaxy S III 3 (White)', 'price' => 119.00, 'stock' => 20],
