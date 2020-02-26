@@ -28,4 +28,4 @@ Built with *BonitaBPMCommunity-6.5.2*.
 
 
 ## License
-Copyright (c) 2015 [Fábio Santos](http://www.fabiosantos.me) and [Rúben Nunes](https://github.com/Jounter). See the LICENSE file for license rights and limitations (MIT).
+See the LICENSE file for license rights and limitations (MIT).
