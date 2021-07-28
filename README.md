@@ -1,7 +1,7 @@
 # Bonita BPM - Shopping Process
 Design and implementation of three business processes: order products, process order and resolve a dispute.
 
-Built with *BonitaBPMCommunity-6.5.2*.
+An academic project built with *BonitaBPMCommunity-6.5.2*.
 
 ------------------------------
 
